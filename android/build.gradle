@@ -29,6 +29,10 @@ android {
     namespace "co.paystack.flutterpaystack"
 
 
+     kotlinOptions {
+        jvmTarget = "1.8"
+    }
+    
     compileSdkVersion 32
 
     sourceSets {
